@@ -1,7 +1,7 @@
 #!/bin/bash
 ###############################################################################
 # OpenCode Web Service - LOCAL TEST INSTALLATION
-# För lokal testning utan SSL/Let's Encrypt
+# For local testing without SSL/Let's Encrypt
 ###############################################################################
 
 set -e
