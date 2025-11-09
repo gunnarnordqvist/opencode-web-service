@@ -22,12 +22,16 @@
     "ssl",
     "letsencrypt"
   ],
-  "author": "Your Name",
+  "author": "Gunnar Nordqvist",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/opencode-web-service.git"
+    "url": "https://github.com/gunnarnordqvist/opencode-web-service.git"
   },
+  "bugs": {
+    "url": "https://github.com/gunnarnordqvist/opencode-web-service/issues"
+  },
+  "homepage": "https://github.com/gunnarnordqvist/opencode-web-service#readme",
   "engines": {
     "node": ">=14.0.0"
   },

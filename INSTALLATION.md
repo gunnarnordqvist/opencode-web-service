@@ -21,7 +21,7 @@ Before you begin, ensure you have:
 ssh user@your-server-ip
 
 # Clone the repository
-git clone https://github.com/yourusername/opencode-web-service.git
+git clone https://github.com/gunnarnordqvist/opencode-web-service.git
 cd opencode-web-service
 ```
 

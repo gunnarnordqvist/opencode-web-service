@@ -428,7 +428,7 @@ For Auth0-specific issues:
 - [Auth0 Community Forum](https://community.auth0.com/)
 
 For OpenCode Web Service issues:
-- [GitHub Issues](https://github.com/yourusername/opencode-web-service/issues)
+- [GitHub Issues](https://github.com/gunnarnordqvist/opencode-web-service/issues)
 - [Documentation](../IDP_SETUP.md)
 
 ---

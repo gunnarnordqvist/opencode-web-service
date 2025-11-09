@@ -78,7 +78,7 @@ sudo opencode-setup-idp
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/opencode-web-service.git
+git clone https://github.com/gunnarnordqvist/opencode-web-service.git
 cd opencode-web-service
 
 # Run the installation script
@@ -557,8 +557,8 @@ If you encounter issues not covered here:
 
 1. Check the [full documentation](docs/)
 2. Review the [FAQ](docs/FAQ.md)
-3. Search [existing issues](https://github.com/yourusername/opencode-web-service/issues)
-4. Open a [new issue](https://github.com/yourusername/opencode-web-service/issues/new)
+3. Search [existing issues](https://github.com/gunnarnordqvist/opencode-web-service/issues)
+4. Open a [new issue](https://github.com/gunnarnordqvist/opencode-web-service/issues/new)
 
 ## Documentation
 
@@ -590,7 +590,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/opencode-web-service.git
+git clone https://github.com/gunnarnordqvist/opencode-web-service.git
 cd opencode-web-service
 
 # Install dependencies
@@ -628,7 +628,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - 📧 Email: support@example.com
 - 💬 Discord: [Join our community](https://discord.gg/example)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/opencode-web-service/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/gunnarnordqvist/opencode-web-service/issues)
 - 📖 Documentation: [Full Docs](https://docs.example.com)
 
 ---

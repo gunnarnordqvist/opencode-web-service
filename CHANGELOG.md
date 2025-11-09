@@ -196,9 +196,9 @@ sudo npm update -g opencode-web-service
 ## Support
 
 For questions, issues, or feature requests:
-- GitHub Issues: https://github.com/yourusername/opencode-web-service/issues
-- Discussions: https://github.com/yourusername/opencode-web-service/discussions
-- Documentation: https://github.com/yourusername/opencode-web-service/tree/main/docs
+- GitHub Issues: https://github.com/gunnarnordqvist/opencode-web-service/issues
+- Discussions: https://github.com/gunnarnordqvist/opencode-web-service/discussions
+- Documentation: https://github.com/gunnarnordqvist/opencode-web-service/tree/main/docs
 
 ---
 

@@ -113,7 +113,7 @@ opencode-web-service/
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/opencode-web-service.git
+git clone https://github.com/gunnarnordqvist/opencode-web-service.git
 cd opencode-web-service
 
 # Run installation
@@ -325,9 +325,9 @@ MIT License - See LICENSE file for details.
 
 ## Contact
 
-- GitHub: https://github.com/yourusername/opencode-web-service
-- Issues: https://github.com/yourusername/opencode-web-service/issues
-- Discussions: https://github.com/yourusername/opencode-web-service/discussions
+- GitHub: https://github.com/gunnarnordqvist/opencode-web-service
+- Issues: https://github.com/gunnarnordqvist/opencode-web-service/issues
+- Discussions: https://github.com/gunnarnordqvist/opencode-web-service/discussions
 
 ## Acknowledgments
 
