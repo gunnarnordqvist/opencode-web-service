@@ -1,0 +1,50 @@
+[Unit]
+Description=OpenCode Web Service
+After=network.target
+Documentation=https://github.com/yourusername/opencode-web-service
+Wants=nginx.service
+
+[Service]
+Type=simple
+User=opencode
+Group=opencode
+WorkingDirectory=/opt/opencode/opencode
+Environment="NODE_ENV=production"
+Environment="PORT=3000"
+EnvironmentFile=-/opt/opencode/config/.env
+ExecStart=/usr/bin/node /opt/opencode/opencode/server.js
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=mixed
+KillSignal=SIGTERM
+Restart=always
+RestartSec=10
+StandardOutput=append:/opt/opencode/logs/opencode.log
+StandardError=append:/opt/opencode/logs/opencode.error.log
+SyslogIdentifier=opencode
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/opencode/data /opt/opencode/logs
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+PrivateDevices=true
+ProtectKernelLogs=true
+ProtectClock=true
+SystemCallFilter=@system-service
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=multi-user.target
